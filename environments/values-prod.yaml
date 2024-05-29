@@ -2,7 +2,7 @@ environment: prod
 
 deployment:
   image:  
-    tag: 9
+    tag: 12
   replicas: 1
 
   labels:
