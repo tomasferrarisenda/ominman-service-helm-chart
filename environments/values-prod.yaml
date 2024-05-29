@@ -1,0 +1,10 @@
+environment: prod
+
+deployment:
+  image:  
+    tag: 9
+  replicas: 1
+
+  labels:
+    environment: prod
+    app: invincible-gtg-omniman-service-prod

@@ -1,0 +1,10 @@
+environment: stage
+
+deployment:
+  image:  
+    tag: 9
+  replicas: 1
+
+  labels:
+    environment: stage
+    app: invincible-gtg-omniman-service-stage
