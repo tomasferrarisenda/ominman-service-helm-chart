@@ -2,9 +2,9 @@ environment: stage
 
 deployment:
   image:  
-    tag: 2
+    tag: 0
   replicas: 1
 
   labels:
     environment: stage
-    app: invincible-gtg-omniman-service-stage
+    app: invincible-gtg-omniman-stage

@@ -2,9 +2,9 @@ environment: dev
 
 deployment:
   image:  
-    tag: 2
+    tag: 0
   replicas: 1
 
   labels:
     environment: dev
-    app: invincible-gtg-omniman-service-dev
+    app: invincible-gtg-omniman-dev

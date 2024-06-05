@@ -2,11 +2,12 @@ system: invincible-gtg
 
 service: omniman-service
 
+port: 8080
+
 deployment:
   image:
-    repository: tferrari92/omniman-service # This value was modified by the initial-setup script
+    repository: tferrari92/omniman-service
     
   labels:
     system: invincible-gtg
     service: omniman-service
-    backstage.io/kubernetes-id: omniman-service

@@ -24,4 +24,4 @@ spec:
         - name: {{ .Values.system }}-{{ .Values.service }}-{{ .Values.environment }}
           image: {{ .Values.deployment.image.repository }}:{{ .Values.deployment.image.tag }}
           ports:
-            - containerPort: 8080
+            - containerPort: {{ .Values.port }}
